@@ -1,18 +1,13 @@
-import React from "react";
+import React from 'react';
+import UserLi from './UserLi';
 
-const users = [
-  { id: 1, name: "Sam Smith" },
-  { id: 2, name: "Lisa More" },
-  { id: 3, name: "David Cohen" },
-  { id: 4, name: "Jim Taylor" },
-];
+const App = () => {
+    return (
 
-class App extends React.Component {
-  render() {
-    return <div>
-        <UserLi />
-    </div>;
-  }
-}
+        <div ><UserLi /></div>
+
+    )
+};
+
 
 export default App;
